@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+*{  font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+
+
+.logooo{
+    width: 200px;
+
+}
+.poiskk{
+    width: 750px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box; 
+    background-color: #fff;
+}
+
+a{
+    color: rgb(204, 204, 204);
+}
+
+.cotolog2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    }
+
+    .set2{
+        width: 70px;
+        background-color: rgba(11, 12, 6, 0.685);
+
+        border: 0.2px solid rgb(70, 44, 44);
+        border-radius: 200px;
+        margin: 11px;
+        padding: 10px;
+    }
+
+
+
+
+
+
+
+.blue-text {
+    color: rgb(233, 233, 233);
+  }
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98.8%;
+    height: 88px;
+    background-color: rgba(24, 24, 24, 0.712);
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.menu-list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu-item{
+    position: relative;
+    padding: 0 1em;
+    font-size: 0.7em;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 0.75em 1.5em;
+}
+
+.submenu{
+    list-style-type: none;
+    border-top: 1px solid black;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.menu-item:hover .submenu{
+    display: block;
+}
+
+.menu-item a{
+    text-decoration: none; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    color: white;
+    text-shadow: 0 0 2px white;
+    font-weight: bold;
+}
+.menu-item a:hover{
+    background-color: #000000b9; 
+    color: #fff; 
+}
+
+.menu-item:hover .submenu{
+    width: 100%;
+    background-color: #000000a6;
+}
+
+
+ul, li {
+    list-style: none;
+}
+
+a {text-decoration: none;}
+
+
+
+.Menu_photo{
+    width: 60px;
+}
+
+#readd{
+    align-items: flex-start;
+    margin: 0px;
+}
+#onlig{
+    align-items: flex-end;
+    margin: 0px;
+}
+#shapks{
+    padding: 0px;
+    color: #dcfd62;
+}
+.texct{
+    font-size: 15px;
+    color: #fff;
+}
+
+.clrut{
+    display: none;
+}
+.submenu:hover{
+    display: block;
+}
+
+.razdel_menu{
+    justify-content: space-between;
+    display: flex;
+}
+.prosto_sverxy_vnuz{
+    flex-direction: column
+}
+
+
+.form-container {
+    box-flex: flex;
+    justify-content: center;
+    margin-top: 300x;
+    margin-bottom: 100px;
+    background-color: rgb(22, 22, 22);
+    padding: 30px;
+    border-radius: 5px;
+    width: 1500px;
+    height: 250px;
+    border: 0.7px solid rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+.form-container1{
+    /* margin-top: 300x;
+    margin-bottom: 100px; */
+    background-color: rgb(26, 26, 26);
+    /* padding: 30px; */
+    border-radius: 5px;
+    width: 150px;
+    border: 0.7px solid rgb(255, 255, 255);
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.form-container3 {
+    margin-top: 100x;
+    margin-bottom: 200px;
+    background-color: rgb(14, 14, 14);
+    padding: 30px;
+    border-radius: 5px;
+    width: 90%;
+    border: 0.7px solid rgb(255, 255, 255);
+    text-align: center;
+
+    margin: 0 auto;
+    
+}
+.conteainner1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.coll{
+    margin-top: 400px;
+    color: #fff;
+    text-align: center;
+}
+
+/* .carta_books{
+    border: 0.7px solid white;
+} */
+
+.form-container4 {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: rgb(14, 14, 14);
+    padding: 30px;
+    border-radius: 5px;
+    width: 1400px;
+    height: 650px;
+    border: 0.7px solid rgb(255, 255, 255);
+    margin: 0 auto;
+  }
+  
+  .notice_plashki {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(36, 36, 36);
+    padding: 1px;
+    border-radius: 40px;
+    width: 1400px;
+    height: 110px;
+    border: 0.7px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    justify-content: start;
+  }
+  
+  .notice_plashki_Ava {
+    border-radius: 20px;
+    width: 160px;
+    display: flex;
+    align-items: start;
+  }
+  
+  .notice_plashki h2 {
+    width: 200px;
+  }
+  .notice_plashki img {
+    width: 60px;
+
+
+  }
+   
+  
+.form-container5{
+    margin-top: 100x;
+    margin-bottom: 200px;
+    background-color: rgb(14, 14, 14);
+    padding: 30px;
+    border-radius: 5px;
+    width: 1000px;
+    border: 0.7px solid rgb(255, 255, 255);
+    text-align: center;
+
+    margin: 0 auto;
+    
+}
